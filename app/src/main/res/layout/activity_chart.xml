@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:layout_margin="100dp"
+android:layout_marginLeft="10dp"
+android:layout_marginRight="10dp"
+tools:context=".Chart">
+
+    <TableRow android:background="@color/red" android:padding="5dp">
+
+        <ImageView
+            android:layout_width="130dp"
+            android:layout_height="58dp"
+            android:src="@drawable/icon5"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp" />
+    </TableRow>
+
+<TableRow android:background="@color/white" android:padding="5dp">
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BMI details"
+        android:layout_span="3"
+        android:textSize="15dp"
+        android:textColor="#000000"/>
+
+
+</TableRow>
+<TableRow android:background="@color/white" android:padding="5dp">
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Food Items"
+        android:layout_marginRight="10dp"
+        android:textSize="15dp"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="10dp"
+        android:text="Calorie/100gr"
+        android:textColor="#000000"
+        android:textSize="15dp" />
+
+
+</TableRow>
+<TableRow android:background="@color/white" android:padding="5dp">
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cheese"
+
+        android:textSize="15dp"
+        android:textColor="#000000"/>
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:layout_marginLeft="10dp"
+        android:text="208"
+        android:textColor="#000000"/>
+
+
+
+</TableRow>
+<TableRow android:background="@color/white" android:padding="5dp">
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Apple"
+
+        android:textSize="15dp"
+        android:textColor="#000000"/>
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:layout_marginLeft="10dp"
+        android:text="49"
+        android:textColor="#000000"/>
+
+
+
+</TableRow>
+<TableRow android:background="@color/white" android:padding="5dp">
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Carrot"
+
+        android:textSize="15dp"
+        android:textColor="#000000"/>
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:layout_marginLeft="10dp"
+        android:text="33"
+        android:textColor="#000000"/>
+
+
+
+</TableRow>
+
+<TableRow android:background="@color/white" android:padding="5dp">
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Milk"
+
+        android:textSize="15dp"
+        android:textColor="#000000"/>
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:layout_marginLeft="10dp"
+        android:text="58"
+        android:textColor="#000000"/>
+</TableRow>
+<TableRow android:background="@color/white" android:padding="5dp">
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tomato"
+
+        android:textSize="15dp"
+        android:textColor="#000000"/>
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="19"
+        android:layout_marginLeft="10dp"
+        android:textColor="#000000"/>
+</TableRow>
+<TableRow android:background="@color/white" android:padding="5dp">
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Crange"
+
+        android:textSize="15dp"
+        android:textColor="#000000"/>
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:layout_marginLeft="10dp"
+        android:text="38"
+        android:textColor="#000000"/>
+
+
+
+</TableRow>
+<TableRow android:background="@color/white" android:padding="5dp">
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="orange"
+
+        android:textSize="15dp"
+        android:textColor="#000000"/>
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="38"
+        android:layout_marginLeft="10dp"
+        android:textColor="#000000"/>
+
+
+
+</TableRow>
+<TableRow android:background="@color/white" android:padding="5dp">
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Olive oil"
+        android:textSize="15dp"
+        android:textColor="#000000"/>
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:layout_marginLeft="10dp"
+        android:text="899"
+        android:textColor="#000000"/>
+
+
+
+</TableRow>
+<TableRow android:background="@color/white" android:padding="5dp">
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Beans"
+
+        android:textSize="15dp"
+        android:textColor="#000000"/>
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:layout_marginLeft="10dp"
+        android:text="58"
+        android:textColor="#000000"/>
+
+
+</TableRow>
+
+
+</TableLayout>

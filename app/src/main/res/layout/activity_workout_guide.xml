@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="#fae1e0"
+tools:context=".WorkoutGuide">
+
+<androidx.appcompat.widget.Toolbar
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="@color/red"
+    tools:ignore="MissingConstraints" >
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="110dp"
+        android:layout_height="wrap_content">
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.appcompat.widget.Toolbar>
+
+<ImageView
+    android:id="@+id/imageWork"
+    android:layout_width="149dp"
+    android:layout_height="156dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.497"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.146"
+    android:background="@color/white"
+    app:srcCompat="@drawable/workout" />
+
+<ImageView
+    android:id="@+id/imageMeditate"
+    android:layout_width="149dp"
+    android:layout_height="156dp"
+    android:background="@color/white"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.507"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/imageWork"
+    app:layout_constraintVertical_bias="0.124"
+    app:srcCompat="@drawable/meditate" />
+
+    <ImageView
+        android:id="@+id/imageRun"
+        android:layout_width="149dp"
+        android:layout_height="156dp"
+        android:background="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageMeditate"
+        app:layout_constraintVertical_bias="0.313"
+        app:srcCompat="@drawable/running" />
+
+    <TextView
+    android:id="@+id/textView2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="104dp"
+    android:text="WORKOUT"
+    android:visibility="visible"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    tools:visibility="visible" />
+
+<TextView
+    android:id="@+id/textView3"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="128dp"
+    android:text="MEDITATION"
+    android:visibility="visible"
+    app:layout_constraintBottom_toBottomOf="@+id/imageMeditate"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.501"
+    app:layout_constraintStart_toStartOf="parent"
+    tools:visibility="visible" />
+
+<TextView
+    android:id="@+id/textView4"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="RUNNING"
+    android:visibility="visible"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.501"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="@+id/imageRun"
+    app:layout_constraintVertical_bias="0.045"
+    tools:visibility="visible" />
+
+    <ImageView
+        android:layout_width="242dp"
+        android:layout_height="53dp"
+        android:src="@drawable/icon5"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

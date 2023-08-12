@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".Login">
+
+    <ImageView
+        android:id="@+id/food"
+        android:layout_width="368dp"
+        android:layout_height="88dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="17dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/logo" />
+
+    <EditText
+    android:id="@+id/usernameLogin"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Username"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="60dp"
+    android:textSize="25dp"
+    android:layout_below="@+id/food"
+    />
+
+    <EditText
+        android:id="@+id/passwordLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/usernameLogin"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="60dp"
+        android:hint="Password"
+        android:textSize="25dp" />
+
+    <Button
+    android:id="@+id/btn2LogIn"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Log In"
+    android:textSize="25sp"
+    android:textAllCaps="false"
+    android:layout_below="@+id/passwordLogin"
+    android:backgroundTint="@android:color/black"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="65dp"
+        android:layout_marginRight="60dp"
+    />
+
+</RelativeLayout>
+
